@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+  <script>
+var age = 70;
+var fare = 800;
+var isStudent = false;
+var discount;
+var ticketPrice;
+
+
+if (age<10) {
+  console.log(fare=0);
+  console.log('Free');
+}
+
+else if (isStudent === true) {
+  discount = fare*50/100;
+  ticketPrice = fare - discount;
+  console.log(ticketPrice);
+}
+
+else if (age >= 60) {
+  discount = fare*15/100;
+  ticketPrice = fare-discount;
+  console.log(ticketPrice);
+}
+
+else {
+  discount = fare*0/100;
+  ticketPrice = fare - discount;
+  console.log(ticketPrice);
+
+}
+
+  </script>
+  
+</body>
+</html>
