@@ -24,7 +24,6 @@
         
         for ( let element of arr) {
              totalSalary = totalSalary + element.starting + element.experience* element.increment;
-             console.log(totalSalary);
 
         }
         
