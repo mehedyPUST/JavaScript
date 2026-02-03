@@ -3,3 +3,4 @@ function celToFahr (celsius) {
     return fahrenheit;
 }
 const fahrenheit = celToFahr(-42);
+console.log(fahrenheit);

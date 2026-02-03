@@ -8,11 +8,14 @@ function findLongestWord (Sample) {
         if ( word.length > maxLength) {
             maxLength = word.length;
             longestWord = word;
-            console.log(word);
+            // console.log(word);
         }
+        
     }
     return longestWord;
+   
 
 }
+
 const input =  'I am learning Programming to become a programmer';
 console.log(findLongestWord(input));
