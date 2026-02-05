@@ -4,9 +4,10 @@ const uniqueNumbers = [];
 
 for (let number of numbers ) {
     let isDuplicate = false;
+    console.log(number);
 
-    for ( let num of uniqueNumbers) {
-        if (number === num) {
+    for ( let element of uniqueNumbers) {
+        if (element === number ) {
             isDuplicate = true;
             break;
         }
